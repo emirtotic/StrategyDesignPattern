@@ -26,7 +26,7 @@ public class MainClass {
 
 				System.out.println("Enter your basketball team name and 3 players from that it.\n");
 
-				BasketballTeam team = new BasketballTeam();
+				Actions team = new BasketballTeam();
 
 				team.getList();
 
@@ -36,7 +36,7 @@ public class MainClass {
 
 				System.out.println("Enter your football team name and 3 players from that it.\n");
 
-				FootballTeam team = new FootballTeam();
+				Actions team = new FootballTeam();
 
 				team.getList();
 
@@ -44,7 +44,7 @@ public class MainClass {
 
 				System.out.println("Enter your hockey team name and 3 players from that it.\n");
 
-				HockeyTeam team = new HockeyTeam();
+				Actions team = new HockeyTeam();
 
 				team.getList();
 
